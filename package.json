@@ -11,14 +11,13 @@
         "vscode": "^1.50.0"
     },
     "repository": {
-        "type": "git"
+        "type": "git",
         "url": "https://github.com/Llewellyn500/Legendary-Dark"
     },
     "galleryBanner": {
-        "color": "#09131b"
+        "color": "#09131b",
         "theme": "dark"
     },
-    "icon": "images/icon/#",
     "categories": [
         "Themes"
     ],
@@ -26,9 +25,9 @@
         "Llewellyn500 Theme",
         "Dark Theme",
         "blue",
-        "SynthWave"
-        "Andromeda"
-        "Grey"
+        "SynthWave",
+        "Andromeda",
+        "Grey",
         "Best"
     ],
     "contributes": {
