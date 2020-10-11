@@ -1,0 +1,43 @@
+{
+    "name": "legendary-dark",
+    "displayName": "Legendary Dark",
+    "description": "This is a Legendary theme combining the best out of SynthWave '84 and Andromeda to give you are beautiful dark theme",
+    "publisher": "Llewellyn500",
+    "author": {
+        "name": "Llewellyn Paintsil"
+    },
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "repository": {
+        "type": "git"
+        "url": "#"
+    },
+    "galleryBanner": {
+        "color": "#09131b"
+        "theme": "dark"
+    },
+    "icon": "images/icon/#",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "Llewellyn500 Theme",
+        "Dark Theme",
+        "blue",
+        "SynthWave"
+        "Andromeda"
+        "Grey"
+        "Best"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Legendary Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Legendary Dark-color-theme.json"
+            }
+        ]
+    }
+}
