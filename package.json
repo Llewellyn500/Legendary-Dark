@@ -3,7 +3,7 @@
     "displayName": "Legendary Dark",
     "description": "🔥 This is Legendary Dark, a beautiful combination of the dark goodness of Andromeda by EliverLara and vibrant colors from SythWave '84 by robb0wen to make identification easy. 😊",
     "icon": "",
-    "publisher": "Llewellyn500",
+    "publisher": "LlewellynPaintsil",
     "author": {
         "name": "Llewellyn Paintsil",
         "url": "https://github.com/Llewellyn500",
@@ -11,7 +11,7 @@
     },
     "version": "1.0.0",
     "engines": {
-        "vscode": "^1.14.0"
+        "vscode": "^1.50.0"
     },
     "repository": {
         "type": "git",
