@@ -1,14 +1,17 @@
 {
     "name": "legendary-dark",
     "displayName": "Legendary Dark",
-    "description": "This is a Legendary theme combining the best out of SynthWave '84 and Andromeda to give you are beautiful dark theme",
+    "description": "🔥 This is Legendary Dark, a beautiful combination of the dark goodness of Andromeda by EliverLara and vibrant colors from SythWave '84 by robb0wen to make identification easy. 😊",
+    "icon": "",
     "publisher": "Llewellyn500",
     "author": {
-        "name": "Llewellyn Paintsil"
+        "name": "Llewellyn Paintsil",
+        "url": "https://github.com/Llewellyn500",
+        "email": "llewellynpaintsil34@gmail.com"
     },
     "version": "1.0.0",
     "engines": {
-        "vscode": "^1.50.0"
+        "vscode": "^1.14.0"
     },
     "repository": {
         "type": "git",
