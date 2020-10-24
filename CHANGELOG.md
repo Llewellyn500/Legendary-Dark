@@ -1,5 +1,5 @@
 # Change Log
 
-## [1.0.0] - 2020-10-Day
+## [1.0.0] - 2020-10-24
 
 - Initial release
