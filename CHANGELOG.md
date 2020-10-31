@@ -1,4 +1,4 @@
-# Change Log\
+# Change Log
 
 ## [1.1.1] - 2020-10-30
 
