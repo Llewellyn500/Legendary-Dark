@@ -12,7 +12,15 @@
 
 </div>
 
-![Legendary_Dark-screenshot](images/shot.png)
+![Legendary_Dark-screenshot](images/dark.png)
+
+# **Legendary Dark (Original)**
+
+![Legendary_Dark_light-screenshot](images/light.png)
+
+# **Legendary Dark (Light)**
+
+---
 
 > **IMPORTANT**: This theme works best with Bracket pair colorizer and indent-rainbow all VS Code Extensions which can be found in the store.
 
