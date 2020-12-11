@@ -20,6 +20,10 @@
 
 # **Legendary Dark (Light)**
 
+# **Legendary Dark (High Contrast)**
+
+![Legendary_Dark_High_contrast-screenshot](images/high_contrast.png)
+
 ---
 
 > **IMPORTANT**: This theme works best with Bracket pair colorizer and indent-rainbow all VS Code Extensions which can be found in the store.
