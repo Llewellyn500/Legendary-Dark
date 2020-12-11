@@ -56,6 +56,11 @@
                 "label": "Legendary Dark (Light)",
                 "uiTheme": "vs",
                 "path": "./themes/Legendary Dark-light-color-theme.json"
+            },
+            {
+                "label": "Legendary Dark (High Contrast)",
+                "uiTheme":"vs-black",
+                "path": "./themes/Legendary Dark-High-contrast-color-theme.json"
             }
         ]
     }
