@@ -1,8 +1,12 @@
 # Change Log
 
+## [3.0.0] - 2020-12-11
+
+- Added Legendary Hig Contrast color scheme.
+
 ## [2.0.0] - 2020-11-07
 
-- Added Legendary dark light mode.
+- Added Legendary dark light color scheme.
 
 ## [1.1.1] - 2020-10-30
 

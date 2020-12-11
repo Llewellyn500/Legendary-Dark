@@ -836,9 +836,9 @@
     "terminal.ansiBrightBlue": "#5994CE",
     "terminal.ansiBrightMagenta": "#008cea",
     "terminal.ansiBrightCyan": "#4bc5fa",
-    "terminal.ansiBrightWhite": "#ffffff"
+    "terminal.ansiBrightWhite": "#ffffff",
 
     "dropdown.background": "#03163f",
-    "dropdown.border": "#13213d",
+    "dropdown.border": "#13213d"
   }
 }
