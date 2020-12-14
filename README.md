@@ -20,9 +20,10 @@
 
 # **Legendary Dark (Light)**
 
-# **Legendary Dark (High Contrast)**
 
 ![Legendary_Dark_High_contrast-screenshot](images/high_contrast.png)
+
+# **Legendary Dark (High Contrast)**
 
 ---
 
