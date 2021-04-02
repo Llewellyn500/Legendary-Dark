@@ -1,8 +1,13 @@
 # Change Log
 
+## [3.1.0] - 2021-4-2
+
+- Updated package details.
+- Changed Icon
+
 ## [3.0.0] - 2020-12-11
 
-- Added Legendary Hig Contrast color scheme.
+- Added Legendary High Contrast color scheme.
 
 ## [2.0.0] - 2020-11-07
 

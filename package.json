@@ -5,11 +5,11 @@
     "icon": "images/Logo.png",
     "publisher": "LlewellynPaintsil",
     "author": {
-        "name": "Llewellyn Paintsil",
+        "name": "Llewellyn Adonteng Paintsil",
         "url": "https://github.com/Llewellyn500",
         "email": "llewellynpaintsil34@gmail.com"
     },
-    "version": "3.0.0",
+    "version": "3.1.0",
     "engines": {
         "vscode": "^1.40.0"
     },
@@ -59,7 +59,7 @@
             },
             {
                 "label": "Legendary Dark (High Contrast)",
-                "uiTheme":"vs-black",
+                "uiTheme":"vs-dark",
                 "path": "./themes/Legendary Dark-High-contrast-color-theme.json"
             }
         ]
