@@ -9,7 +9,7 @@
         "url": "https://github.com/Llewellyn500",
         "email": "llewellynpaintsil34@gmail.com"
     },
-    "version": "4.0.0",
+    "version": "5.0.0",
     "engines": {
         "vscode": "^1.40.0"
     },
@@ -51,16 +51,6 @@
                 "label": "Legendary Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Legendary Dark-color-theme.json"
-            },
-            {
-                "label": "Legendary Dark (Light)",
-                "uiTheme": "vs",
-                "path": "./themes/Legendary Dark-light-color-theme.json"
-            },
-            {
-                "label": "Legendary Dark (High Contrast)",
-                "uiTheme":"vs-dark",
-                "path": "./themes/Legendary Dark-High-contrast-color-theme.json"
             }
         ]
     }

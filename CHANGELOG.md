@@ -1,5 +1,9 @@
 # Change Log
 
+## [5.0.0] - 2021-4-8
+
+- Removed Light and High Contrast Versions
+
 ## [4.0.0] - 2021-4-7
 
 - Made tiny changes to Dark Version

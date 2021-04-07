@@ -14,17 +14,8 @@
 
 ![Legendary_Dark-screenshot](images/dark.png)
 
-# **Legendary Dark (Original)**
+# **Legendary Dark**
 
-![Legendary_Dark_light-screenshot](images/light.png)
-
-# **Legendary Dark (Light)**
-
-![Legendary_Dark_High_contrast-screenshot](images/high_contrast.png)
-
-# **Legendary Dark (High Contrast)**
-
----
 
 > **IMPORTANT**: This theme works best with Bracket pair colorizer and indent-rainbow all VS Code Extensions which can be found in the store.
 
