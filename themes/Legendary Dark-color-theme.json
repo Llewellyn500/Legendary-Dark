@@ -292,8 +292,8 @@
     {
       "name": "Comment",
       "scope": [
-        "comment",
-        "string.quoted.docstring.multi.python",
+        "comment", 
+        "string.quoted.docstring.multi.python", 
         "string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
         "string.quoted.docstring.multi.python punctuation.definition.string.end.python"
       ],
@@ -568,7 +568,7 @@
       "scope": "variable.other.constant.property.js, variable.other.property.js",
       "settings": {
         "foreground": "#2ee2fa"
-      }
+      },
     },
     {
       "name": "Color",
@@ -617,7 +617,7 @@
     },
     {
       "name": "Markup text",
-      "scope": ["text.html", "keyword.operator.assignment"],
+      "scope": ["text.html", "keyword.operator.assignment", ],
       "settings": {
         "foreground": "#ffffffee"
       }
@@ -800,7 +800,9 @@
     },
     {
       "name": "Clojure Globals",
-      "scope": ["entity.global.clojure"],
+      "scope": [
+        "entity.global.clojure",
+      ],
       "settings": {
         "foreground": "#36f9f6",
         "fontStyle": "bold"
@@ -808,7 +810,9 @@
     },
     {
       "name": "Clojure Storage",
-      "scope": ["storage.control.clojure"],
+      "scope": [
+        "storage.control.clojure"
+      ],
       "settings": {
         "foreground": "#36f9f6",
         "fontStyle": "italic"
@@ -816,7 +820,10 @@
     },
     {
       "name": "Clojure Metadata",
-      "scope": ["meta.metadata.simple.clojure", "meta.metadata.map.clojure"],
+      "scope": [
+        "meta.metadata.simple.clojure",
+        "meta.metadata.map.clojure"
+      ],
       "settings": {
         "foreground": "#fe4450",
         "fontStyle": "italic"
@@ -824,14 +831,18 @@
     },
     {
       "name": "Clojure Macros, Quoted",
-      "scope": ["meta.quoted-expression.clojure"],
+      "scope": [
+        "meta.quoted-expression.clojure"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
       "name": "Clojure Symbols",
-      "scope": ["meta.symbol.clojure"],
+      "scope": [
+        "meta.symbol.clojure"
+      ],
       "settings": {
         "foreground": "#ff7edbff"
       }
@@ -864,7 +875,7 @@
         "source.go keyword.control.go"
       ],
       "settings": {
-        "foreground": "#fede5d"
+        "foreground": "#fede5d",
       }
     },
     {
@@ -872,10 +883,10 @@
       "scope": [
         "source.go storage.type",
         "source.go keyword.struct.go",
-        "source.go keyword.interface.go"
+        "source.go keyword.interface.go",
       ],
       "settings": {
-        "foreground": "#72f1b8"
+        "foreground": "#72f1b8",
       }
     },
     {
@@ -902,14 +913,19 @@
     },
     {
       "name": "Markdown links and image paths",
-      "scope": ["string.other.link.title.markdown"],
+      "scope": [
+        "string.other.link.title.markdown"
+      ],
       "settings": {
         "foreground": "#fede5d"
       }
     },
     {
       "name": "Markdown headings",
-      "scope": ["markup.heading.markdown", "entity.name.section.markdown"],
+      "scope": [
+        "markup.heading.markdown",
+        "entity.name.section.markdown",
+      ],
       "settings": {
         "foreground": "#ff7edb",
         "fontStyle": "bold"
@@ -917,7 +933,9 @@
     },
     {
       "name": "Markdown italic",
-      "scope": ["markup.italic.markdown"],
+      "scope": [
+        "markup.italic.markdown",
+      ],
       "settings": {
         "foreground": "#2EE2FA",
         "fontStyle": "italic"
@@ -925,7 +943,9 @@
     },
     {
       "name": "Markdown bold",
-      "scope": ["markup.bold.markdown"],
+      "scope": [
+        "markup.bold.markdown",
+      ],
       "settings": {
         "foreground": "#2EE2FA",
         "fontStyle": "bold"
@@ -935,10 +955,10 @@
       "name": "Markdown quotes",
       "scope": [
         "punctuation.definition.quote.begin.markdown",
-        "markup.quote.markdown"
+        "markup.quote.markdown",
       ],
       "settings": {
-        "foreground": "#72f1b8"
+        "foreground": "#72f1b8",
       }
     },
     {
@@ -950,38 +970,48 @@
     },
     {
       "name": "Dart strings",
-      "scope": ["string.interpolated.single.dart"],
+      "scope": [
+        "string.interpolated.single.dart",
+      ],
       "settings": {
-        "foreground": "#f97e72"
+        "foreground": "#f97e72",
       }
     },
     {
       "name": "Dart variable params",
-      "scope": ["variable.parameter.dart"],
+      "scope": [
+        "variable.parameter.dart",
+      ],
       "settings": {
-        "foreground": "#72f1b8"
+        "foreground": "#72f1b8",
       }
     },
     {
       "name": "Dart numerics",
-      "scope": ["constant.numeric.dart"],
+      "scope": [
+        "constant.numeric.dart",
+      ],
       "settings": {
-        "foreground": "#2EE2FA"
+        "foreground": "#2EE2FA",
       }
     },
     {
       "name": "Scala variable params",
-      "scope": ["variable.parameter.scala"],
+      "scope": [
+        "variable.parameter.scala",
+      ],
       "settings": {
-        "foreground": "#2EE2FA"
+        "foreground": "#2EE2FA",
       }
     },
     {
       "name": "Scala",
-      "scope": ["meta.template.expression.scala"],
+      "scope": [
+        "meta.template.expression.scala",
+      ],
       "settings": {
-        "foreground": "#72f1b8"
+        "foreground": "#72f1b8",
       }
-    }
+    },
   ]
 }

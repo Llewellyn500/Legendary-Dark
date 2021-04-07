@@ -1,5 +1,9 @@
 # Change Log
 
+## [4.0.0] - 2021-4-7
+
+- Made tiny changes to Dark Version
+
 ## [3.1.0] - 2021-4-2
 
 - Updated package details.
