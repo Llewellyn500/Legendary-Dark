@@ -16,10 +16,10 @@
 
 # **Legendary Dark**
 
-> **IMPORTANT**: This theme works best with Bracket pair colorizer and indent-rainbow all VS Code Extensions which can be found in the store.
+**This theme works best with Bracket pair colorizer and indent-rainbow all VS Code Extensions which can be found in the store.**
 
-> **NOTE**: This theme includes the dark goodness of Andromeda and the color syntax of synthwave '84.
+**This theme includes the dark goodness of Andromeda and the color syntax of synthwave '84.**
 
-## License
-
+---
+## License:
 [MIT](https://github.com/Llewellyn500/Legendary-Dark/blob/master/LICENSE.md)
