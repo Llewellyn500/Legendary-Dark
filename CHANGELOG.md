@@ -1,5 +1,10 @@
 # Change Log
 
+
+## [5.0.1] - 2022-6-24
+
+- Updated the README.md
+
 ## [5.0.0] - 2021-4-7
 
 - Removed Light and High Contrast Versions
