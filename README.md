@@ -23,7 +23,7 @@
 ---
 ## Zed
 
-Legendary Dark now includes a Zed theme file at `themes/legendary-dark.json` and a Zed extension manifest at `extension.toml`.
+Legendary Dark now includes a Zed theme extension in the `zed/` folder.
 
 The Zed extension ID is `legendary-dark`.
 
@@ -31,12 +31,12 @@ The Zed extension ID is `legendary-dark`.
 
 1. Open the command palette in Zed.
 2. Run `zed: install dev extension`.
-3. Select this repository folder.
+3. Select the `zed/` folder inside this repository.
 4. Choose `Legendary Dark` from the theme selector.
 
 ### Install as a local Zed theme
 
-Copy `themes/legendary-dark.json` to your Zed themes directory:
+Copy `zed/themes/legendary-dark.json` to your Zed themes directory:
 
 - Windows: `%USERPROFILE%\AppData\Roaming\Zed\themes\`
 - macOS/Linux: `~/.config/zed/themes/`
