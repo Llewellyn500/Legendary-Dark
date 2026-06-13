@@ -50,7 +50,7 @@
             {
                 "label": "Legendary Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Legendary Dark-color-theme.json"
+                "path": "./vscode/themes/Legendary Dark-color-theme.json"
             }
         ]
     }
