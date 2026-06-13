@@ -1,0 +1,7 @@
+id = "legendary-dark"
+name = "Legendary Dark"
+version = "5.0.1"
+schema_version = 1
+authors = ["Llewellyn Adonteng Paintsil <llewellynpaintsil34@gmail.com>"]
+description = "A dark theme inspired by Andromeda and SynthWave '84."
+repository = "https://github.com/Llewellyn500/Legendary-Dark"
