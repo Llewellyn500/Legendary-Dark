@@ -1,52 +1,63 @@
 <div align="center">
 
-![Legendary-Dark-Logotype](images/Logo.png)
+<img src="images/Logo.png" alt="Legendary Dark logo" width="120">
 
-# Legendary Dark - VS Code and Zed theme
+# Legendary Dark
+
+A dark editor theme for VS Code and Zed, combining Andromeda's deep UI feel with vivid SynthWave '84-inspired syntax colors.
+
+[![GitHub release](https://img.shields.io/github/v/release/Llewellyn500/Legendary-Dark?style=for-the-badge&logo=github&color=0b8eed)](https://github.com/Llewellyn500/Legendary-Dark/releases/latest)
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/LlewellynPaintsil.legendary-dark?style=for-the-badge&logo=visualstudiocode&color=007acc)](https://marketplace.visualstudio.com/items?itemName=LlewellynPaintsil.legendary-dark)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/LlewellynPaintsil.legendary-dark?style=for-the-badge&color=4cbe6c)](https://marketplace.visualstudio.com/items?itemName=LlewellynPaintsil.legendary-dark)
+[![Rating](https://img.shields.io/visual-studio-marketplace/stars/LlewellynPaintsil.legendary-dark?style=for-the-badge&color=f6c343)](https://marketplace.visualstudio.com/items?itemName=LlewellynPaintsil.legendary-dark)
 
 </div>
 
-<div align="center">
+![Legendary Dark screenshot](images/dark.jpg)
 
-[![release](https://img.shields.io/github/v/release/Llewellyn500/Legendary-Dark?color=white&logo=github&style=for-the-badge)](https://github.com/Llewellyn500/Legendary-Dark/releases/latest) [![vscode](https://img.shields.io/visual-studio-marketplace/v/LlewellynPaintsil.legendary-dark.svg?color=blue&logo=visual%20studio&logoColor=blue&style=for-the-badge)](https://code.visualstudio.com/updates/v1_26.svg) [![downloads](https://img.shields.io/visual-studio-marketplace/d/LlewellynPaintsil.legendary-dark?color=lemon%20green&logo=docusign&logoColor=green&style=for-the-badge)](https://marketplace.visualstudio.com/items.svg?itemName=LlewellynPaintsil.legendary-dark) [![rating](https://img.shields.io/visual-studio-marketplace/stars/LlewellynPaintsil.legendary-dark.svg?color=gold&logo=reverbnation&logoColor=gold&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=LlewellynPaintsil.legendary-dark)
+## VS Code
 
-</div>
+Install Legendary Dark from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=LlewellynPaintsil.legendary-dark), or install it from the command line:
 
-![Legendary_Dark-screenshot](images/dark.jpg)
+```sh
+code --install-extension LlewellynPaintsil.legendary-dark
+```
 
-# **Legendary Dark**
+Then open the theme picker and select `Legendary Dark`.
 
-**This theme works best with Bracket pair colorizer and indent-rainbow all VS Code Extensions which can be found in the store.**
+VS Code's built-in bracket pair colorization and indentation guides pair well with this theme.
 
-**This theme includes the dark goodness of Andromeda and the color syntax of synthwave '84.**
-
----
 ## Zed
 
-Legendary Dark now includes a Zed theme extension in the `zed/` folder.
+Zed support lives in the [`zed/`](zed/) folder.
 
-The Zed extension ID is `legendary-dark`.
+Until the Zed Extension Gallery submission is merged, install it as a dev extension:
 
-### Install as a Zed dev extension
+1. Open Zed.
+2. Open the command palette.
+3. Run `zed: install dev extension`.
+4. Select this repository's `zed/` folder.
+5. Open the theme selector and choose `Legendary Dark`.
 
-1. Open the command palette in Zed.
-2. Run `zed: install dev extension`.
-3. Select the `zed/` folder inside this repository.
-4. Choose `Legendary Dark` from the theme selector.
-
-### Install as a local Zed theme
-
-Copy `zed/themes/legendary-dark.json` to your Zed themes directory:
+You can also install the theme file manually by copying [`zed/themes/legendary-dark.json`](zed/themes/legendary-dark.json) to your Zed themes directory:
 
 - Windows: `%USERPROFILE%\AppData\Roaming\Zed\themes\`
 - macOS/Linux: `~/.config/zed/themes/`
 
-Restart Zed if the theme does not appear immediately, then choose `Legendary Dark` from the theme selector.
+Restart Zed if the theme does not appear immediately.
 
-### Publish to Zed
+## Repository Layout
 
-See `ZED_PUBLISHING.md` for the registry submission steps.
+```text
+themes/Legendary Dark-color-theme.json  VS Code theme
+zed/                                    Zed theme extension
+images/                                 Logo and screenshot
+```
 
----
-## License:
-[MIT](https://github.com/Llewellyn500/Legendary-Dark/blob/master/LICENSE.md)
+## Publishing
+
+Zed registry submission details are in [`ZED_PUBLISHING.md`](ZED_PUBLISHING.md).
+
+## License
+
+[MIT](LICENSE.md)
