@@ -4,16 +4,17 @@ Legendary Dark is structured as a Zed theme extension:
 
 ```text
 Legendary-Dark/
-  extension.toml
-  LICENSE.md
-  themes/
-    legendary-dark.json
+  zed/
+    extension.toml
+    LICENSE.md
+    themes/
+      legendary-dark.json
 ```
 
 The public Zed extension ID is:
 
 ```toml
-legendary-dark
+legendary-dark-theme
 ```
 
 Zed extension IDs cannot be changed after publishing, so keep this value stable.
@@ -23,7 +24,7 @@ Zed extension IDs cannot be changed after publishing, so keep this value stable.
 1. Open Zed.
 2. Open the command palette.
 3. Run `zed: install dev extension`.
-4. Select this repository folder.
+4. Select the `zed/` folder inside this repository.
 5. Open the theme selector and choose `Legendary Dark`.
 
 ## Registry submission
@@ -33,15 +34,16 @@ Zed publishes community extensions through pull requests to `zed-industries/exte
 From a fork of `https://github.com/zed-industries/extensions`, run:
 
 ```sh
-git submodule add https://github.com/Llewellyn500/Legendary-Dark.git extensions/legendary-dark
-git add extensions/legendary-dark
+git submodule add https://github.com/Llewellyn500/Legendary-Dark.git extensions/legendary-dark-theme
+git add extensions/legendary-dark-theme
 ```
 
 Add this entry to the top-level `extensions.toml`:
 
 ```toml
-[legendary-dark]
-submodule = "extensions/legendary-dark"
+[legendary-dark-theme]
+submodule = "extensions/legendary-dark-theme"
+path = "zed"
 version = "5.0.1"
 ```
 

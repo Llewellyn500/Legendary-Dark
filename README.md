@@ -29,17 +29,17 @@ VS Code's built-in bracket pair colorization and indentation guides pair well wi
 
 ## Zed
 
-Zed support lives at the repository root.
+Zed support lives in the [`zed/`](zed/) folder. The Zed extension ID is `legendary-dark-theme`.
 
 Until the Zed Extension Gallery submission is merged, install it as a dev extension:
 
 1. Open Zed.
 2. Open the command palette.
 3. Run `zed: install dev extension`.
-4. Select this repository folder.
+4. Select this repository's `zed/` folder, not the repository root.
 5. Open the theme selector and choose `Legendary Dark`.
 
-You can also install the theme file manually by copying [`themes/legendary-dark.json`](themes/legendary-dark.json) to your Zed themes directory:
+You can also install the theme file manually by copying [`zed/themes/legendary-dark.json`](zed/themes/legendary-dark.json) to your Zed themes directory:
 
 - Windows: `%USERPROFILE%\AppData\Roaming\Zed\themes\`
 - macOS/Linux: `~/.config/zed/themes/`
@@ -49,10 +49,11 @@ Restart Zed if the theme does not appear immediately.
 ## Repository Layout
 
 ```text
-extension.toml                          Zed extension manifest
-themes/legendary-dark.json              Zed theme
+zed/                                           Zed theme extension
+zed/extension.toml                             Zed extension manifest
+zed/themes/legendary-dark.json                 Zed theme
 vscode/themes/Legendary Dark-color-theme.json  VS Code theme
-images/                                 Logo and screenshot
+images/                                        Logo and screenshot
 ```
 
 ## Publishing
